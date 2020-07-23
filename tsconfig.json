@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": false,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true
+  },
+  "files": [
+    "typings/tsd.d.ts"
+  ],
+  "include": [
+    "./src/**/*"
+ ]
+}
