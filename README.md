@@ -9,7 +9,7 @@ npm install -g gulp
 npm install
 
 # build the whole project
-npm run build:full
+npm run build:full or npm run build:prodFull to build minimized version
 
 # start dev server
 npm run start
